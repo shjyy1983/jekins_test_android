@@ -1,0 +1,12 @@
+打包
+gradle build
+
+完成后在
+./build/outputs/apk/
+下找到打包后的包
+
+模拟器安装和运行
+cd ~/Library/Android/sdk/tools/
+emulator -avd Nexus_5X_API_27
+adb install xxx
+adb logcat
